@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-div {
+  background: linear-gradient(39deg, #ffffff 62%, #9424f0 50%);
+}
+
+/* -----Navbar------ */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  margin-left: 2rem;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin-right: 2rem;
+  font-size: medium;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.signin-btn {
+  padding: -5px;
+  border: none;
+  cursor: pointer;
+  margin-right: 3rem;
+  border-radius: 2rem;
+  color: #ffffff;
+  background-image: linear-gradient(
+    to right,
+    rgba(253, 41, 189, 0.799),
+    rgba(158, 36, 240, 0.927)
+  );
+}
+
+/* ---Intro-section ----- */
+
+.intro-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-section {
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+
+h1 {
+  font-size: 4.6rem;
+  font-weight: 700;
+  color: #461d98;
+}
+
+h4 {
+  margin-right: 11rem;
+  color: #7a75ac;
+  font-size: 1.3rem;
+}
+
+.learn-more-btn {
+  margin-top: 3rem;
+  padding: 9px 20px;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    rgba(253, 41, 189, 0.799),
+    rgba(158, 36, 240, 0.927)
+  );
+}
+
+.vector-img {
+  position: relative;
+  top: 30rem;
+}
+
+.vector-dot {
+  position: relative;
+  top: 25rem;
+  right: 2.5rem;
+}
+
+.intro-img {
+  position: relative;
+  width: 110%;
+  bottom: 8rem;
+  right: 9rem;
+}
